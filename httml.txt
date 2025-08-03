@@ -1,0 +1,85 @@
+v<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Metadata -->
+  <title>Green Earth Initiative | Sustainability for the Future</title>
+  <meta name="description" content="Green Earth Initiative is a non-profit organization promoting sustainable living and environmental awareness." />
+  <meta name="keywords" content="sustainability, environment, green living, climate change" />
+  <meta name="author" content="Green Earth Team" />
+
+  <!-- Open Graph for social media -->
+  <meta property="og:title" content="Green Earth Initiative" />
+  <meta property="og:description" content="Promoting sustainable living for a better future." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.greenearth.org" />
+  <meta property="og:image" content="https://www.greenearth.org/images/preview.jpg" />
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Green Earth Initiative</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" title="Learn more about us">About</a></li>
+        <li><a href="#projects" title="Our latest projects">Projects</a></li>
+        <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        The Green Earth Initiative is dedicated to raising awareness and taking
+        action for a sustainable and healthier planet.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Our Projects</h2>
+
+      <article>
+        <h3>Urban Tree Planting</h3>
+        <p>
+          Partnering with city councils, we plant trees in urban areas to
+          improve air quality and biodiversity.
+        </p>
+        <img src="images/tree-planting.jpg" alt="Volunteers planting trees in a city park" />
+      </article>
+
+      <article>
+        <h3>Plastic-Free Campaign</h3>
+        <p>
+          Encouraging communities to reduce plastic use through education and
+          policy change.
+        </p>
+        <img src="images/plastic-free.jpg" alt="Reusable bags and containers" />
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="/submit-form" method="POST" aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Green Earth Initiative. All rights reserved.</p>
+  </footer>
+</body>
+</html>
